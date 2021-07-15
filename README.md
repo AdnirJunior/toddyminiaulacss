@@ -1,0 +1,1 @@
+A idéia era fazer um site sobre o Toddy para colocar conhecimento em pratica, mas no final virou uma mini aula de CSS, com uma pitadinha de bom humor e aquele gostinho de quero JavaScript no final.

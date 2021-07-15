@@ -1,0 +1,139 @@
+/*RESET*/
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, {
+	display: block;
+}
+
+a{
+    text-decoration: none;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root {
+    --fundo: rgb(248, 207, 132);
+
+}
+
+body{
+    background-color: var(--fundo);
+    justify-content: center;
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: rgb(247, 226, 160);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+header h1{
+    color: rgb(133, 124, 124);
+    font-size: 1rem;
+}
+#container{
+    
+}
+.container-img{
+    width: 90%;
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    border-radius: 20px;
+    margin: 0 auto;
+
+}
+
+.container-img-img{
+    width: 100%;
+    border-radius: 20px;
+}
+.container-p{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.botao-proxima{
+    text-align: center;
+    
+}
+
+.botao-proxima-btn, input{
+    background-color: darksalmon;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+
+
+.botao-antes-btn, input{
+    background-color: darksalmon;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+
+
+
+@media screen and (min-width: 650px) {
+    body {
+      background-color: lightgreen;
+      display: flex;
+      
+    }
+
+    header{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    position: fixed;
+    background-color: rgb(188, 245, 188);
+    padding: 20px;
+    border-radius: 10px;
+    }
+    #container{
+        margin-top: 100px;
+    }
+    .botao-proxima-btn:hover, .botao-antes-btn, input{
+        cursor: pointer;
+        background-color: darkslateblue;
+        color: #fff;
+    }
+    .p1{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 1 350px;
+        margin: 20px;
+    }
+    div .container-img{
+        width: 40%;
+    }
+    div .container-p{
+        width: 40%;
+    }
+
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3rem;
+    }
+  }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Continuando...</title>
+</head>
+<body>
+    <header>
+        <img src="./img/babytoddy_files/logo1.png" alt="logo Toddy" class="pictures" id="logo">
+        <h1>Olá, eu sou o Toddy!</h1>
+        <ul>
+            <li><a href="https://www.instagram.com/toddy.the.doggy/">Instagram</a></li>
+        </ul>
+    </header>
+    <main id="container">
+        <div class="p1">
+            <div class="container-img" id="container_img-4">
+                <img  class="container-img-img" src="./img/babytoddy_files/toddy&teddy.jpg" alt="Caixa biscoito scooby" srcset="">
+            </div>
+            <div class="container-p" id="container-p4">
+                <p>Esse da foto é um dos meus primos, o Ted (acho que é assim que escreve o nome dele..hehe)...nesse dia nós estavamos decidindo se pulavamos ou nao na piscina, mas no final nem pulamos... </p>
+                <p>Onde foi que eu parei mesmo? Ah, sim...vamos falar das imagens agora...para deixar essa pontinha arredondada colocamos um "border-radius: 20px", quanto maior o numero do px, mais redondinho fica...ele queria colocar tudo 100% e ia ficar tudo umas bolinhas... é doidinho ele!!</p>
+                <p>Colocamos as imagens dentro de uma DIV, que é uma caixa sem sem valor semantico e a gente vai colocando tudo la! Tipo minha caixinha de brinquedos, a diferença é que na DIV a gente acerta tudo com o CSS e eu nao tenho CSS para arrumar minha caixinha. Geeeente, estou perdendo o foco... hehe</p>
+                <p>Essa sombra nas imagens na verdade estao na DIV e a propriedade usada foi a "box-shadow"</p>
+            </div>
+        </div>
+        <div class="p1">
+            <div class="container-img" id="container_img-5">
+                <img  class="container-img-img" src="./img/babytoddy_files/95704495_1173014816372866_4950352863767489927_n.jpg" alt="Caixa biscoito scooby" srcset="">
+            </div>
+            <div class="container-p" id="container-p4">
+                <p>Dai vocês devem estar se perguntando como aprendi tudo isso... claro que foi assistindo video-aulas com o serumaninho aqui, confesso que tinha horas que eu já não aguentava mais umas tais de demos</p>
+                <p>Ah, vamos  finalizar... os botoes para mudar de pagina colocamos dentro de um link "a" e para mudar de cor quando passa o mouse nós usamos a propriedade ":hover"</p>
+                <p>Nossas dúvidas foram tiradas no <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/" target="blank">AQUI</a>, <a href="https://www.w3schools.com/" target="blank">AQUI</a> e <a href="https://www.google.com/" target="blank">AQUI</a>.</p>
+                <p>Ah, e para abrir as paginas em uma nova aba nós utilizamos a propriedade "target="blank" dentro do "a"</p>
+                <p>Para saber mais novidades do primeiro DogDev clica no sininho, ativa as notificações, se inscreve no canal e arrasta pra cima....hehe *brincadeira*</p>
+                <p>Ah, e para não faltar aquele chorinho no JavaScript, colocamos um botao "A verdade" para você descobrir um fato que eu escondi...hehe</p>
+            </div>
+        </div>
+
+        <div class="botao-proxima">
+            <a href="index.html"><input class="botao-antes-btn" type="button" value="pagina anterior"></a>
+            <input type="button" value="A verdade" onclick="alerta()">
+        </div>
+    </main>
+
+    <script>
+        function alerta() {
+            alert("Na verdade nao como biscoitos Scooby, como Premier Cookie...hehe");
+        }
+    </script>
+</body>
+</html>
