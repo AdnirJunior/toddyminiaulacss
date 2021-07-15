@@ -95,7 +95,7 @@ header h1{
 
 
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 768px) {
     body {
       background-color: lightgreen;
       display: flex;
@@ -111,8 +111,14 @@ header h1{
     padding: 20px;
     border-radius: 10px;
     }
+
+    header h1{
+        font-size: 35px;
+        font-family: cursive;
+        color: rgb(12, 95, 12);
+    }
     #container{
-        margin-top: 100px;
+        margin-top: 130px;
     }
     .botao-proxima-btn:hover, .botao-antes-btn, input{
         cursor: pointer;
@@ -136,4 +142,30 @@ header h1{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.3rem;
     }
+    .botao-proxima-btn, input{
+        background-color: rgb(18, 241, 18);
+        padding: 10px;
+        border-radius: 4px;
+        margin-top: 15px;
+    }
+    
+    
+    
+    .botao-antes-btn, input{
+        background-color: rgb(4, 65, 36);
+        padding: 10px;
+        border-radius: 4px;
+        margin-top: 15px;
+    }
+  }
+
+  @media screen and (min-width: 550px) and (max-width: 768px){
+      body{
+          background-color: magenta;
+      }
+      header{
+          background-color: rgb(247, 187, 247);
+      }
+  }
+      
   }
